@@ -12,7 +12,7 @@ def gagal(no1,pro,nam):
   print "     %s[%s%s%s] [%s Failed  %s] %sFailed, spam %s from %s%s %snot sended"%(pu,ku,no1,pu,me,pu,pu,pro,ku,nam,me)
 #--------------------------------MAIN---------------------------------------------------
 def main():
-  print "%s[%s!%s] %sTarget locked >> %s%s"%(pu,me,pu,pu,ku,"+62"+nom)
+  print "%s[%s!%s] %sTarget locked >> %s%s"%(pu,me,pu,pu,ku,"+964"+nom)
   t = 1
   for spam in range(jum):
    print "%s[%s+%s]-------------------------->>>[%s%s%s]<<<--------------------------[%s+%s]"%(pu,ku,pu,me,t,pu,ku,pu)
@@ -33,8 +33,8 @@ def input():
   if len(nom) < 5:
     print "%s[%s!%s] %sMasukkan nomor target dengan benar!!"%(pu,me,pu,me)
     input()
-  elif nom.startswith(tuple(["62","+62","0"])):
-    print "%s[%s!%s] %sMasukkan nomor tanpa 62, +62, ataupun 0\n%s[%s!%s] %sContoh : 85877162199"%(pu,me,pu,ku,pu,me,pu,ku)
+  elif nom.startswith(tuple(["964","+964","0"])):
+    print "%s[%s!%s] %sMasukkan nomor tanpa 964, +964, ataupun 0\n%s[%s!%s] %sContoh : 85877162199"%(pu,me,pu,ku,pu,me,pu,ku)
     input()
   else:
     global jum
